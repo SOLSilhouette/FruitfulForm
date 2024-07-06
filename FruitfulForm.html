@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruitful Form</title>
+    <link href="FruitfulForm.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1 id="head">Fruitful Fellowship</h1>
+
+    <div id="main">
+        <div class="cell" id="cell1"><span class="f_cell">Fruitful Cell 1</span></div>
+
+        <div class="cell" id="cell2"><span class="f_cell">Fruitful Cell 2</span></div>
+
+        <div class="cell" id="cell3"><span class="f_cell">Fruitful Cell 3</span></div>
+
+        <div class="cell" id="cell4"><span class="f_cell">Fruitful Cell 4</span></div>
+
+        <div class="cell" id="cell5"><span class="f_cell">Fruitful Cell 5</span></div>
+
+        <div class="cell" id="cell6"><span class="f_cell">Fruitful Cell 6</span></div>
+
+        <div class="cell" id="cell7"><span class="f_cell">Fruitful Cell 7</span></div>
+    </div>
+
+
+    <fieldset id="form">
+        <legend><h2>Cell Meeting Report</h2></legend>
+
+        <form method="POST" action="https://formspree.io/f/xdknoboy">
+            
+            <table align="center" border="0" cellpadding="10">
+                <tr>
+                    <td class="tab_lab"><label for="date">Date:</label></td>
+                    <td class="tab_inp"><input class="form_input" id="date" type="text" name="Date" required disabled></td>
+                </tr>
+
+                <tr>
+                    <td class="tab_lab"><label for="cell_n">Cell:</label></td>
+                    <td class="tab_inp"><input class="form_input" id="cell_n" type="text" name="Cell" required disabled></td>
+                </tr>
+
+                <tr>
+                    <td class="tab_lab"><label for="name">Cell Leader:</label></td>
+                    <td class="tab_inp"><input class="form_input" id="name" type="text" name="Cell Leader" required disabled></td>
+                </tr>
+
+                <tr>
+                    <td class="tab_lab"><label for="theme">Theme:</label></td>
+                    <td class="tab_inp"><input class="form_input" id="theme" type="text" placeholder="Theme" name="Theme" required></td>
+                </tr>
+
+                <tr>
+                    <td class="tab_lab"><label for="attend">Attendance:</label></td>
+                    <td class="tab_inp"><input class="form_input" id="attend" type="number" placeholder="Attendance" name="Attendance" required></td>
+                </tr>
+
+                <tr>
+                    <td class="tab_lab"><label for="offer">Offering:</label></td>
+                    <td class="tab_inp"><input class="form_input" id="offer" type="text" placeholder="Offering" name="Offering" required></td>
+                </tr>
+
+                <tr>
+                    <td class="tab_lab"><label for="loc">Location:</label></td>
+                    <td class="tab_inp"><input class="form_input" id="loc" type="text" placeholder="Location" name="Location" required></td>
+                </tr>
+
+                <tr>
+                    <td class="tab_lab"><label for="dur">Duration:</label></td>
+                    <td class="tab_inp">
+                        <input class="form_input" id="dur" type="time" name="Duration"required><br>
+                        <span>to</span><br>
+                        <input class="form_input" id="dur" type="time" name="Duration" required>
+                    </td>
+                </tr>
+            </table>
+
+        <input type="submit" id="sub" value="SUBMIT">
+        </form>
+    </fieldset>
+
+    <h2 id="back">Back</h2>
+
+    <script src="FruitfulForm.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+body {
+    margin: 0 auto;
+    background-color: black;
+    text-align: center;
+    color: white;
+    cursor: default;
+    font-family: courier;
+}
+
+#head {
+    font-family: fantasy;
+    letter-spacing: 5px;
+    font-variant: small-caps;
+    border: 2px groove white;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+#main {
+    margin: 20px auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    padding: 20px 50px;
+}
+
+.cell {
+    box-shadow: 4px 4px 1px grey;
+    width: 240px;
+    height: 120px;
+    font-family: courier;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+.cell:hover {
+    box-shadow: none;
+}
+.cell:active {
+    transform: scale(0.95);
+    box-shadow: none;
+}
+
+.f_cell {
+    display: inline-block;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+#form {
+    display: none;
+    border-radius: 10px;
+}
+
+.form_input {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px groove white;
+    color: white;
+    background-color: black;
+}
+
+#dur {
+    color-scheme: dark;
+}
+
+.tab_lab {
+    text-align: left;
+}
+.tab_inp {
+    text-align: center;
+}
+
+#sub {
+    margin-top: 20px;
+    padding: 5px 8px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+}
+#sub:active {
+    transform: scale(0.97);
+}
+
+#back {
+    display: none;
+    border: 2px groove grey;
+    border-radius: 7px;
+    padding: 5px 20px;
+    font-variant: small-caps;
+}
+#back:active {
+    transform: scale(0.95);
+}
