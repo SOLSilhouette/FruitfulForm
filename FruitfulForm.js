@@ -43,7 +43,7 @@ document.querySelector("#date").value = cm_date;
 
 cell1.addEventListener("click", function() {
     document.querySelector("#head").style.display = "none";
-    document.querySelector("#form").style.display = "inline-block"
+    document.querySelector("#form").style.display = "block"
     document.querySelector("#main").style.display = "none";
     document.querySelector("#back").style.display = "inline-block";
     document.querySelector("#date").value = cm_date;
@@ -53,7 +53,7 @@ cell1.addEventListener("click", function() {
 
 cell2.addEventListener("click", function() {
     document.querySelector("#head").style.display = "none";
-    document.querySelector("#form").style.display = "inline-block"
+    document.querySelector("#form").style.display = "block"
     document.querySelector("#main").style.display = "none";
     document.querySelector("#back").style.display = "inline-block";
     document.querySelector("#date").value = cm_date;
@@ -63,7 +63,7 @@ cell2.addEventListener("click", function() {
 
 cell3.addEventListener("click", function() {
     document.querySelector("#head").style.display = "none";
-    document.querySelector("#form").style.display = "inline-block"
+    document.querySelector("#form").style.display = "block"
     document.querySelector("#main").style.display = "none";
     document.querySelector("#back").style.display = "inline-block";
     document.querySelector("#date").value = cm_date;
@@ -73,7 +73,7 @@ cell3.addEventListener("click", function() {
 
 cell4.addEventListener("click", function() {
     document.querySelector("#head").style.display = "none";
-    document.querySelector("#form").style.display = "inline-block"
+    document.querySelector("#form").style.display = "block"
     document.querySelector("#main").style.display = "none";
     document.querySelector("#back").style.display = "inline-block";
     document.querySelector("#date").value = cm_date;
@@ -83,7 +83,7 @@ cell4.addEventListener("click", function() {
 
 cell5.addEventListener("click", function() {
     document.querySelector("#head").style.display = "none";
-    document.querySelector("#form").style.display = "inline-block"
+    document.querySelector("#form").style.display = "block"
     document.querySelector("#main").style.display = "none";
     document.querySelector("#back").style.display = "inline-block";
     document.querySelector("#date").value = cm_date;
@@ -93,7 +93,7 @@ cell5.addEventListener("click", function() {
 
 cell6.addEventListener("click", function() {
     document.querySelector("#head").style.display = "none";
-    document.querySelector("#form").style.display = "inline-block"
+    document.querySelector("#form").style.display = "block"
     document.querySelector("#main").style.display = "none";
     document.querySelector("#back").style.display = "inline-block";
     document.querySelector("#date").value = cm_date;
@@ -103,7 +103,7 @@ cell6.addEventListener("click", function() {
 
 cell7.addEventListener("click", function() {
     document.querySelector("#head").style.display = "none";
-    document.querySelector("#form").style.display = "inline-block"
+    document.querySelector("#form").style.display = "block"
     document.querySelector("#main").style.display = "none";
     document.querySelector("#back").style.display = "inline-block";
     document.querySelector("#date").value = cm_date;
