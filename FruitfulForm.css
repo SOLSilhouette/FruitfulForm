@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 body {
     margin: 0 auto;
     background-color: black;
@@ -8,7 +12,7 @@ body {
 }
 
 #head {
-    font-family: fantasy;
+    font-family: 'Permanent Marker', cursive;
     letter-spacing: 5px;
     font-variant: small-caps;
     border: 2px groove white;
@@ -48,6 +52,7 @@ body {
 .f_cell {
     display: inline-block;
     letter-spacing: 2px;
+    font-family: 'Bruno Ace SC', cursive;
     font-variant: small-caps;
     font-size: 25px;
     margin-top: 40px;
