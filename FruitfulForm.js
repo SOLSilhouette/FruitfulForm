@@ -123,5 +123,6 @@ document.querySelector("form").addEventListener("submit", function() {
     document.querySelector("#date").disabled = false;
     document.querySelector("#cell_n").disabled = false;
     document.querySelector("#name").disabled = false;
+    document.querySelector("form").reset();
     document.querySelector("#form").style.display = "none";
 });
