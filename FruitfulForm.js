@@ -13,13 +13,13 @@ var date = d.getDate();
 var year = d.getFullYear();
 
 var day = new Array();
-day[0] = "Monday";
-day[1] = "Tuesday";
-day[2] = "Wednesday";
-day[3] = "Thursday";
-day[4] = "Friday";
-day[5] = "Saturday"
-day[6] = "Sunday";
+day[0] = "Sunday";
+day[1] = "Monday";
+day[2] = "Tuesday";
+day[3] = "Wednesday";
+day[4] = "Thursday";
+day[5] = "Friday";
+day[6] = "Saturday"
 var day = day[d.getDay()];
 
 var month = new Array();
